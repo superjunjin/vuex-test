@@ -1,10 +1,15 @@
 <template>
     <div>
+        <!-- 这是modules state -->
+        <!-- count和number模块 -->
+        {{$store.state.count.count}}-
+        {{$store.state.number.number}}
+
         <!-- 这是单份的 -->
-        <button @click="increment">+</button>
+        <!-- <button @click="increment">+</button>
         {{$store.state.count}}
         {{$store.getters.getState}}
-        <button @click="decrement">-</button>
+        <button @click="decrement">-</button> -->
     </div>
 </template>
 
